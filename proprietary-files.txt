@@ -1,5 +1,5 @@
 ## All proprietary files from this list, unless pinned and noted otherwise, are
-## from realme GT Neo2 5G (RMX3370_11.F.07).
+## from realme GT Neo 3T (RMX3371_11.C.05).
 
 # ACDB
 odm/etc/acdbdata/Bluetooth_cal.acdb
@@ -11,9 +11,9 @@ odm/etc/acdbdata/Headset_cal.acdb
 odm/etc/acdbdata/Speaker_cal.acdb
 
 # ADSP Modules
-odm/lib/rfsa/adsp/libarcsoft_hdrplus_hvx_skel_21619.so
-odm/lib/rfsa/adsp/libarcsoft_hdrplus_se_hvx_skel_21619.so
-odm/lib/rfsa/adsp/libarcsoft_portraitsn_hvx_skel_21619.so
+odm/lib/rfsa/adsp/libarcsoft_hdrplus_hvx_skel_21623.so
+odm/lib/rfsa/adsp/libarcsoft_hdrplus_se_hvx_skel_21623.so
+odm/lib/rfsa/adsp/libarcsoft_portraitsn_hvx_skel_21623.so
 
 # Audio libraries
 odm/lib/liblvimfs.so
@@ -59,46 +59,58 @@ odm/etc/camera/config/imx471
 odm/etc/camera/config/oplus_camera_aps_config
 odm/etc/camera/config/oplus_camera_config
 odm/etc/camera/config/ov02b
-odm/etc/camera/config/s5kgw1
+odm/etc/camera/config/ov64b
 odm/etc/camera/CameraHWConfiguration.config
 odm/etc/camera/camera_engmode.xml
 odm/etc/camera/settings_fdc.txt
 odm/lib64/camera/com.qti.sensor.hi846.so
 odm/lib64/camera/com.qti.sensor.imx471.so
 odm/lib64/camera/com.qti.sensor.ov02b.so
-odm/lib64/camera/com.qti.sensor.s5kgw1.so
-odm/lib64/camera/com.qti.sensormodule.qtech_s5kgw1.bin
+odm/lib64/camera/com.qti.sensor.ov64b.so
+odm/lib64/camera/com.qti.sensormodule.qtech_ov64b.bin
 odm/lib64/camera/com.qti.sensormodule.shine_ov02b.bin
 odm/lib64/camera/com.qti.sensormodule.truly_hi846.bin
-odm/lib64/camera/com.qti.sensormodule.truly_imx471_2169A.bin
-odm/lib64/camera/com.qti.tuned.sm8250_qtech_s5kgw1.bin
+odm/lib64/camera/com.qti.sensormodule.truly_imx471_21732.bin:odm/lib64/camera/com.qti.sensormodule.truly_imx471.bin
+odm/lib64/camera/com.qti.tuned.sm8250_qtech_ov64b.bin
 odm/lib64/camera/com.qti.tuned.sm8250_shine_ov02b.bin
 odm/lib64/camera/com.qti.tuned.sm8250_truly_hi846.bin
-odm/lib64/camera/com.qti.tuned.sm8250_truly_imx471_2169A.bin
+odm/lib64/camera/com.qti.tuned.sm8250_truly_imx471_21732.bin:odm/lib64/camera/com.qti.tuned.sm8250_truly_imx471.bin
+
+#camera others
+odm/etc/vintf/manifest/manifest_oplus_cameraextension.xml
+odm/lib/libaiboost_sr.so
+odm/lib/libosie_process.so
+vendor/lib64/libqdMetaData.so
 
 # Charger
-odm/firmware/fastchg/136730/charging_thermal_config_default.txt
-odm/firmware/fastchg/136730/oplus_vooc_fw_rk826.bin
-odm/firmware/fastchg/136858/charging_thermal_config_default.txt
-odm/firmware/fastchg/136858/oplus_vooc_fw_rk826.bin
-odm/firmware/fastchg/136859/charging_thermal_config_default.txt
-odm/firmware/fastchg/136859/oplus_vooc_fw_rk826.bin
-odm/firmware/fastchg/20161/oplus_vooc_fw_rt5125.bin
+odm/firmware/fastchg/19705/oplus_vooc_fw.bin
+odm/firmware/fastchg/19795/oplus_vooc_fw.bin
+odm/firmware/fastchg/20607/oplus_vooc_fw.bin
+odm/firmware/fastchg/21615/charging_thermal_config_default.txt
+odm/firmware/fastchg/21615/oplus_vooc_fw_rk826.bin
 odm/firmware/fastchg/21619/charging_thermal_config_default.txt
 odm/firmware/fastchg/21619/oplus_vooc_fw_rk826.bin
-odm/firmware/fastchg/2161A/charging_thermal_config_default.txt
-odm/firmware/fastchg/2161A/oplus_vooc_fw_rk826.bin
-odm/firmware/fastchg/2169A/charging_thermal_config_default.txt
-odm/firmware/fastchg/2169A/oplus_vooc_fw_rk826.bin
-odm/firmware/fastchg/2169B/charging_thermal_config_default.txt
-odm/firmware/fastchg/2169B/oplus_vooc_fw_rk826.bin
+odm/firmware/fastchg/21623/charging_thermal_config_default.txt
+odm/firmware/fastchg/21623/oplus_vooc_fw_rk826.bin
+odm/firmware/fastchg/21732/charging_thermal_config_default.txt
+odm/firmware/fastchg/21732/oplus_vooc_fw_rk826.bin
+odm/firmware/fastchg/21733/charging_thermal_config_default.txt
+odm/firmware/fastchg/21733/oplus_vooc_fw_rk826.bin
 odm/firmware/fastchg/charging_thermal_config_default.txt
+odm/firmware/fastchg/smart_chg_config_table.txt
 
 # Display calibration data
 vendor/etc/ltm_config_samsung_ams662zs01_dsc_cmd_mode_panel.xml
 vendor/etc/ltm_config_samsung_ams662zs01_dvt_dsc_cmd_mode_panel.xml
 vendor/etc/qdcm_calib_data_samsung_ams662zs01_dsc_cmd_mode_panel.xml
 vendor/etc/qdcm_calib_data_samsung_ams662zs01_dvt_dsc_cmd_mode_panel.xml
+
+# Display eye protection data
+odm/etc/samsung1024_ams662zs01_eyeprotect_data.xml
+odm/etc/samsung1024_ana6706_cinema_eyeprotect_data.xml
+odm/etc/samsung1024_ana6706_colorful_eyeprotect_data.xml
+odm/etc/samsung1024_ana6706_eyeprotect_data.xml
+odm/etc/samsung1024_ana6706_srgb_eyeprotect_data.xml
 
 # Fingerprint firmware
 odm/vendor/firmware/ancap64.b00
@@ -128,6 +140,12 @@ vendor/firmware/image/opluseid.b05
 vendor/firmware/image/opluseid.b06
 vendor/firmware/image/opluseid.b07
 vendor/firmware/image/opluseid.mdt
+odm/lib64/hw/fingerprint.goodix_G2.default.so
+odm/lib64/hw/fingerprint.goodix_G6.default.so
+odm/lib64/hw/fingerprint.goodix_G7.default.so
+odm/lib64/libgf_hal_G2.so
+odm/lib64/libgf_hal_G6.so
+odm/lib64/libgf_hal_G7.so
 
 # Graphics (Adreno firmware)
 vendor/firmware/a650_gmu.bin
@@ -165,9 +183,8 @@ vendor/lib64/libqtikeymaster4.so
 vendor/lib/hw/sound_trigger.primary.kona.so
 
 # NFC
-odm/etc/nfc/libnfc-mtp-SN100.conf_21619:vendor/etc/libnfc-nxp-21619.conf
-odm/etc/nfc/libnfc-mtp-SN100.conf_2169B:vendor/etc/libnfc-nxp-2169B.conf
-odm/etc/nfc/libnfc-nci.conf_2169B:vendor/etc/libnfc-nci.conf
+odm/etc/nfc/libnfc-mtp-SN100.conf_19805:vendor/etc/libnfc-nxp.conf
+odm/etc/nfc/libnfc-nci.conf_19805:vendor/etc/libnfc-nci.conf
 odm/lib/libsn100u_fw.so:vendor/lib/libsn100u_fw.so
 
 # Sensors
@@ -181,9 +198,9 @@ odm/etc/sensor/config/kona_qrd_sx933x_0.json
 odm/etc/sensor/sensor_config.json
 
 # Touchscreen firmware
-odm/firmware/tp/21619/FW_S3908_SAMSUNG.img
-odm/firmware/tp/21619/FW_S3908_SAMSUNG_FAE.img
-odm/firmware/tp/21619/LIMIT_S3908_SAMSUNG.img
+odm/firmware/tp/21623/FW_FT3658U_SAMSUNG.img
+odm/firmware/tp/21623/FW_FT3658U_SAMSUNG_FAE.img
+odm/firmware/tp/21623/LIMIT_FT3658U_SAMSUNG.img
 
 # Wifi
 odm/etc/wifi/bdwlan.elf
